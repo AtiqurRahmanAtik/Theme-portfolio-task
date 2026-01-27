@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+.borderB{
+    border: 1px solid #F89222;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+}

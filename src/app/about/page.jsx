@@ -1,6 +1,6 @@
-import React from 'react';
 
-const HomePage = () => {
+
+const AboutPage = () => {
 
     return (
         <div>
@@ -9,4 +9,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default AboutPage;
