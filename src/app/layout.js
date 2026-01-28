@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           <NavigationBar/>
         </header>
 
-        <main className="mx-auto container my-9">
+        <main className=" my-9 bg-[#171B1A]">
 
         {children}
         </main>

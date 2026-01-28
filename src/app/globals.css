@@ -2,6 +2,7 @@
 @plugin "daisyui";
 
 
+
 .borderB{
     border: 1px solid #F89222;
     padding-left: 24px;
@@ -9,4 +10,12 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 50px;
+}
+
+
+
+.custom-border {
+  
+  border-left: 10px solid transparent;
+  border-image: url("../../public/Images/Group 8414.png") 30 repeat ;
 }

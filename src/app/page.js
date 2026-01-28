@@ -1,3 +1,5 @@
+import Resume from "@/_Component/Resume";
+import Skills from "@/_Component/Skills";
 
 
 export default function Home() {
@@ -8,9 +10,24 @@ export default function Home() {
     <div className="">
       <main className="">
         
-       <h1 className="text-3xl font-bold text-red-500">
-      Hello world!
-    </h1>   
+     
+
+
+
+  
+     {/* Rusume  */}
+    <section>
+
+    <Resume/>
+    </section>
+
+{/* skill */}
+    <section>
+      <Skills/>
+    </section>
+
+
+   
        
       </main>
     </div>
