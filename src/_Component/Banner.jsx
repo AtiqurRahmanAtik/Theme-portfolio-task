@@ -16,13 +16,26 @@ const Banner = () => {
           <div className=" bg-[#171B1A] flex items-center justify-center min-h-screen ">
   <div className="w-full max-w-7xl flex flex-col lg:flex-row items-center gap-12">
 
-  <div>
+  <div className='flex'>
+
+    <ul className='flex flex-col'>
+        <li>
+      All
+    </li>
+    <li >
+      Graphic Design
+    </li>
+       
+    </ul>
+
+
       <Image
       src={bannerImg}
       alt='banImg'
       className="max-w-92 max-h-126 bg-black rounded-lg "
     />
   </div>
+
 
 
     <div>
@@ -44,6 +57,7 @@ Navigation and Structure.
 
       <button className="btn bg-[#F89222] mt-10 text-white border-none rounded-[50px]">Downdolad CV</button>
     </div>
+
 
   </div>
 </div>  
