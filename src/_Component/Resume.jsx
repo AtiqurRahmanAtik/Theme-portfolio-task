@@ -14,7 +14,8 @@ const Resume = () => {
     return (
 
         <>
-            <h1 className={`text-white ${dM_Sans.className} text-[3rem] font-bold text-white mt-16`}>Resume </h1>
+           <div className="lg:ml-114">
+             <h1 className={`text-white ${dM_Sans.className} text-[3rem] font-bold text-white `}>Resume </h1>
 
 
 <div className="parent ">
@@ -123,6 +124,7 @@ eligendi ipsum, laborum maiores mollitia, optio quam quis rerum totam voluptas.
 
 </div>
 
+           </div>
 
 
         </>

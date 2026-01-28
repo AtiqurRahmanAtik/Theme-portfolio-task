@@ -22,10 +22,11 @@ const Blog = () => {
     return (
         <>
 
+<div className="lg:ml-114">
  <h1 className={`text-white ${dM_Sans.className} text-[3rem] font-bold text-white mt-16`}>Blog </h1>
 
 
-        <div className="max-w-172 mt-6 grid grid-cols-2 auto-rows-[180px] gap-6">
+        <div className="max-w-172 mt-6 grid lg:grid-cols-2 auto-rows-[180px] gap-6">
 
   <Blog_Card
     image={img1}
@@ -74,7 +75,7 @@ const Blog = () => {
 </div>
 
 
-
+</div>
         
             
         </>

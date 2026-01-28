@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <>
 
-<div className="max-w-171.5 min-h-112 my-30">
+<div className="max-w-171.5 min-h-112 my-30 lg:ml-114">
         <h1 className={`text-white ${dM_Sans.className} text-[3rem] font-bold text-white`}>Skills</h1>
 
         <div className=" space-y-8 ">

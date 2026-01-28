@@ -23,20 +23,31 @@ const Portfolio = () => {
     return (
         <>
 
-        <div className="parents">
+        <div className="parents lg:ml-114">
              <h1 className={`text-white ${dM_Sans.className} text-[3rem] font-bold text-white `}>Portfolio </h1>
 
 
 
-             <div className="max-w-172 max-h-15 mt-10 bg-[#000000] border rounded-md ">
-                <ul className="flex  gap-10 justify-center py-5">
-                    <li className={`${dM_Sans.className} text-[1rem] font-normal text-[#F89222] border-b border-[#F89222]`} >All</li>
-                    <li className={`${dM_Sans.className} text-[1rem] font-normal text-white`}>Graphic Design</li>
-                    <li className={`${dM_Sans.className} text-[1rem] font-normal text-white`}>Mobile App</li>
-                    <li className={`${dM_Sans.className} text-[1rem] font-normal text-white`}>Photography</li>
-                    <li className={`${dM_Sans.className} text-[1rem] font-normal text-white`}>UI/UX Design</li>
-                </ul>
-             </div>
+           <div className="max-w-full md:max-w-688 mt-10 bg-black border rounded-md px-4">
+  <ul className="flex flex-wrap md:flex-nowrap gap-4 md:gap-10 justify-center py-5 overflow-x-auto scrollbar-hide">
+    <li className={`${dM_Sans.className} text-sm md:text-base font-normal text-[#F89222] border-b-2 border-[#F89222] whitespace-nowrap`}>
+      All
+    </li>
+    <li className={`${dM_Sans.className} text-sm md:text-base font-normal text-white whitespace-nowrap`}>
+      Graphic Design
+    </li>
+    <li className={`${dM_Sans.className} text-sm md:text-base font-normal text-white whitespace-nowrap`}>
+      Mobile App
+    </li>
+    <li className={`${dM_Sans.className} text-sm md:text-base font-normal text-white whitespace-nowrap`}>
+      Photography
+    </li>
+    <li className={`${dM_Sans.className} text-sm md:text-base font-normal text-white whitespace-nowrap`}>
+      UI/UX Design
+    </li>
+  </ul>
+</div>
+
 
 
         {/* images category  */}

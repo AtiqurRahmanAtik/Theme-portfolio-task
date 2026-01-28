@@ -24,7 +24,8 @@ const NavigationBar = () => {
 
     const navLinks = <>
         <Link href={'/'}><li className={`${pathname === '/' ? "text-white border-b border-b-[#F89222] " : ""} text-white font-bold text-2xl  ${dM_Sans.className}`}>Home</li> </Link>
-        <Link href={'/about'}><li className={`${pathname === '/about' ? "text-white border-b border-b-[#F89222] " : ""} text-white font-bold text-2xl ${dM_Sans.className}`}>about</li> </Link>
+        
+     
       
         
 
@@ -33,7 +34,7 @@ const NavigationBar = () => {
     
     return (
         <>
-        <nav className="navbar bg-[#121414]">
+        <nav className="mx-auto container navbar bg-[#121414]">
   <div className="navbar-start ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
