@@ -1,3 +1,5 @@
+import Blog from "@/_Component/Blog";
+import Portfolio from "@/_Component/Portfolio";
 import Resume from "@/_Component/Resume";
 import Skills from "@/_Component/Skills";
 
@@ -24,6 +26,18 @@ export default function Home() {
 {/* skill */}
     <section>
       <Skills/>
+    </section>
+
+
+{/* portfolio */}
+    <section>
+      <Portfolio/>
+    </section>
+
+
+    {/* Blog */}
+    <section>
+      <Blog/>
     </section>
 
 
