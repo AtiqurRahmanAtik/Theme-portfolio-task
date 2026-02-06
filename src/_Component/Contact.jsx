@@ -2,6 +2,9 @@ import React from 'react';
 
 const Contact = () => {
 
+
+  console.log('atiqur rahman')
+
     return (
         <>
        <div class=" flex px-4 py-10 lg:ml-114">
